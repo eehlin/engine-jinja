@@ -20,7 +20,7 @@ make lib-python
 3. Build wrapper with C API for FFI:
 
 ```sh
-make lip-wrapper
+make lib-wrapper
 ```
 
 Here you need to know the Python version you are using, in this case it is Python 3.13. Also, on MacOS you may want to use .dylib instead of .so.
